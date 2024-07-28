@@ -3,11 +3,11 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  AWS_BUCKET: pr3-979441148042-dev
+  AWS_BUCKET: pr3-577558010798-dev
   AWS_PROFILE: default
   AWS_REGION: us-west-2
   JWT_SECRET: mytoken
   POSTGRES_DB: postgres
-  POSTGRES_HOST: postgres.czfes4r4vut8.us-west-2.rds.amazonaws.com
+  POSTGRES_HOST: postgres.c3zremg46nuu.us-west-2.rds.amazonaws.com
   URL: http://localhost:8100
   NODE_OPTIONS: --max-old-space-size=1024
